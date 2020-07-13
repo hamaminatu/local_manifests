@@ -7,9 +7,9 @@
   <!-- proton-clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-11.0" name="kdrag0n/proton-clang" remote="github" revision="master" />
   <!-- display/media/audio HALs required for booting -->
-  <project path="hardware/qcom/display-caf/sm8150" name="trinket-devs/hardware_qcom-caf_sm8150_display" remote="github" revision="ten" />
-  <project path="hardware/qcom/media-caf/sm8150" name="trinket-devs/hardware_qcom-caf_sm8150_media" remote="github" revision="ten" />
-  <project path="hardware/qcom/audio-caf/sm8150" name="trinket-devs/hardware_qcom-caf_sm8150_audio" remote="github" revision="ten" />
+  <project path="hardware/qcom-caf/display/sm8150" name="trinket-devs/hardware_qcom-caf_sm8150_display" remote="github" revision="ten" />
+  <project path="hardware/qcom-caf/media/sm8150" name="trinket-devs/hardware_qcom-caf_sm8150_media" remote="github" revision="ten" />
+  <project path="hardware/qcom-caf/audio/sm8150" name="trinket-devs/hardware_qcom-caf_sm8150_audio" remote="github" revision="ten" />
   <!-- MiuiCamera port -->
   <project path="vendor/miuicamera" name="ghostrider-reborn/android_vendor_miuicamera" remote="github" revision="quartz" />
 </manifest>
