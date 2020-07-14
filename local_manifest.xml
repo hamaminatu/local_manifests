@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- device/kernel/vendor trees  -->
-  <project path="device/xiaomi/ginkgo" name="hamaminatu/device_xiaomi_ginkgo" remote="github" revision="havoc" />
-  <project path="kernel/xiaomi/ginkgo" name="hamaminatu/kernel_xiaomi_ginkgo" remote="github" revision="havoc" />
-  <project path="vendor/xiaomi/ginkgo" name="hamaminatu/vendor_xiaomi_ginkgo" remote="github" revision="havoc" />
+  <project path="device/xiaomi/ginkgo" name="hamaminatu/device_xiaomi_ginkgo" remote="github" revision="master" />
+  <project path="kernel/xiaomi/ginkgo" name="Introdructor/kernel_xiaomi_ginkgo-1" remote="github" revision="revengeos" />
+  <project path="vendor/xiaomi/ginkgo" name="Introdructor/android_vendor_xiaomi_ginkgo" remote="github" revision="10.0" />
   <!-- proton-clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-11.0" name="kdrag0n/proton-clang" remote="github" revision="master" />
   <!-- display/media/audio HALs required for booting -->
@@ -11,5 +11,5 @@
   <project path="hardware/qcom/media-caf/sm8150" name="trinket-devs/hardware_qcom-caf_sm8150_media" remote="github" revision="ten" />
   <project path="hardware/qcom/audio-caf/sm8150" name="trinket-devs/hardware_qcom-caf_sm8150_audio" remote="github" revision="ten" />
   <!-- MiuiCamera port -->
-  <project path="vendor/miuicamera" name="ghostrider-reborn/android_vendor_miuicamera" remote="github" revision="quartz" />
+  <project path="vendor/miuicamera" name="Introdructor/android_vendor_miuicamera" remote="github" revision="quartz" />
 </manifest>
